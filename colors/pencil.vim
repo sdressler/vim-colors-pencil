@@ -386,3 +386,19 @@ else
   hi link GitGutterChange             LineNr
   hi link GitGutterChangeDelete       LineNr
 endif
+
+" python-syntax
+call s:h("pythonImport",           {"gui": "bold", "cterm": "bold" })
+call s:h("pythonDecorator",        {"fg": s:pink})
+call s:h("pythonDottedName",       {"fg": s:pink})
+call s:h("pythonFunction",         {"fg": s:orange})
+call s:h("pythonFunctionCall",     {"fg": s:orange})
+call s:h("pythonOperator",         {"fg": s:dark_green})
+call s:h("pythonStatement",        {"fg": s:dark_green})
+call s:h("pythonRepeat",           {"fg": s:dark_green})
+call s:h("pythonConditional",      {"fg": s:dark_green})
+call s:h("pythonNone",             {"fg": s:subtle_black})
+call s:h("pythonException",        {"fg": s:dark_red})
+call s:h("pythonFString",          {"fg": s:pink})
+call s:h("pythonStringFormatting", {"fg": s:pink})
+call s:h("pythonBuiltinType",      {"fg": s:darker_blue, "gui": "bold", "cterm": "bold"})
